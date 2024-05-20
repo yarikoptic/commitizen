@@ -1,8 +1,8 @@
 import os
+from unittest.mock import ANY
 
 import pytest
 from pytest_mock import MockFixture
-from unittest.mock import ANY
 
 from commitizen import cmd, commands
 from commitizen.cz.exceptions import CzException

@@ -11,6 +11,7 @@ from pytest_mock import MockFixture
 
 from commitizen import __file__ as commitizen_init
 from commitizen import cli, git
+from commitizen.changelog_formats import ChangelogFormat
 from commitizen.commands.changelog import Changelog
 from commitizen.config.base_config import BaseConfig
 from commitizen.cz.base import BaseCommitizen
@@ -22,7 +23,6 @@ from commitizen.exceptions import (
     NotAGitProjectError,
     NotAllowed,
 )
-from commitizen.changelog_formats import ChangelogFormat
 from tests.utils import (
     create_branch,
     create_file_and_commit,

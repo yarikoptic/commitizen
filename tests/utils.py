@@ -3,6 +3,7 @@ from __future__ import annotations
 import time
 import uuid
 from pathlib import Path
+
 from deprecated import deprecated
 
 from commitizen import cmd, exceptions, git
